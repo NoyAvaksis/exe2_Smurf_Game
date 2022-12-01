@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_Score"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/back"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GAME OVER"
+        android:fontFamily="@font/kenney_blocks"
+        android:textSize="36dp"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:id="@+id/score_LBL_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="YOUR POINTS: "
+        android:fontFamily="@font/kenney_blocks"
+        android:textSize="24dp"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/black"
+
+
+        />
+
+
+    <Button
+        android:id="@+id/score_BTN_startover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Over"
+        android:textSize="32dp"
+        android:textColor="@color/white"
+        android:backgroundTint="#73AC34"
+        android:fontFamily="@font/kenney_blocks"
+        android:layout_marginTop="40dp"
+
+        />
+
+
+
+
+</LinearLayout>
