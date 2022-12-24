@@ -7,6 +7,7 @@ public class GameManager {
     private int cols;
     private Characters bord[][];
     private Player player;
+    private int randCol;
 
     public GameManager(int rows, int cols, int life) {
         this.life = life;
@@ -20,6 +21,14 @@ public class GameManager {
     public int getEnemyCol(int row) {
         for (int i =0; i <cols ; i++) {
             if(bord[row][i] instanceof Enemy)
+                return i;
+        }
+        return -1;
+    }
+
+    public int getCoinsCol(int row) {
+        for (int i =0; i <cols ; i++) {
+            if(bord[row][i] instanceof Coins)
                 return i;
         }
         return -1;
@@ -40,6 +49,30 @@ public class GameManager {
         newEnemy();
     }
 
+    public void nextMoveCoin() {
+
+        for (int i = rows-1; i >= 0; i--) {
+            for (int j = cols-1; j >=0; j--) {
+                if(bord[i][j] instanceof Coins) {
+                    ((Coins) bord[i][j]).moving();
+                    if(i<rows-1) {
+                        bord[i + 1][j] = bord[i][j];
+                    }
+                    bord[i][j]=null;
+                }
+            }
+        }
+        newCoins();
+    }
+
+    private void newCoins() {
+        do {
+            randCol = (int)(Math.random()*cols);
+        } while (bord[0][randCol] instanceof Enemy);
+
+        bord[0][randCol] = new Coins(rows,cols,randCol);
+    }
+
     public boolean isEndGame() {
          return (life==0);
     }
@@ -51,6 +84,16 @@ public class GameManager {
             life--;
             return true;
             }
+            return false;
+    }
+
+    public boolean isCatchACoin() {
+        int coinsCol;
+        coinsCol = getCoinsCol(rows-1);
+        if(coinsCol == player.getCol() && coinsCol>=0){
+            return true;
+        }
+        else
             return false;
     }
 

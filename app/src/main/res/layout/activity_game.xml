@@ -18,7 +18,17 @@
 
 
 
-
+    <TextView
+        android:id="@+id/game_TXT_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="0"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/iron_wall"
+        android:layout_centerHorizontal="true"
+        />
 
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="95dp"
@@ -29,7 +39,6 @@
         android:layout_marginTop="5dp"
 
         >
-
 
 
         <com.google.android.material.button.MaterialButton
@@ -109,6 +118,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
+
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
             android:layout_height="40dp"
@@ -144,6 +154,21 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1" />
 
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_IMG_dardasim03"
+                android:layout_width="0dp"
+                android:padding="20dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_IMG_dardasim04"
+                android:layout_width="0dp"
+                android:padding="20dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -172,6 +197,21 @@
 
             <com.google.android.material.imageview.ShapeableImageView
                 android:id="@+id/game_IMG_dardasim12"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="20dp"
+                />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_IMG_dardasim13"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:padding="20dp"
+                android:layout_weight="1" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_IMG_dardasim14"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -209,10 +249,25 @@
                 android:layout_weight="1"
                 android:padding="20dp"
                 />
+
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_IMG_dardasim23"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="20dp"
+                />
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_IMG_dardasim24"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="20dp"
+                />
         </androidx.appcompat.widget.LinearLayoutCompat>
 
         <androidx.appcompat.widget.LinearLayoutCompat
-            android:id="@+id/game_LNR_playerbord"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
@@ -242,6 +297,72 @@
                 android:layout_weight="1"
                 android:padding="20dp"/>
 
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_IMG_dardasim33"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="20dp"
+
+                />
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_IMG_dardasim34"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="20dp"/>
+
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/game_LNR_playerbord"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+
+            >
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_IMG_dardasim40"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="20dp"/>
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_IMG_dardasim41"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="20dp"
+
+                />
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_IMG_dardasim42"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="20dp"/>
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_IMG_dardasim43"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="20dp"
+
+                />
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_IMG_dardasim44"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="20dp"/>
+
 
 
         </androidx.appcompat.widget.LinearLayoutCompat>
@@ -256,6 +377,7 @@
 
 
     <RelativeLayout
+        android:id="@+id/game_RLT_arrows"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -290,29 +412,257 @@
             />
 
     </RelativeLayout>
-    <RelativeLayout
-        android:id="@+id/game_RTL_start"
+
+    <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#99F1E6E6"
-        android:gravity="center"
-        android:visibility="invisible">
+        android:orientation="vertical">
 
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/game_BTN_start"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:backgroundTint="#73C178"
-            android:padding="30dp"
-            android:text="start"
-            android:fontFamily="@font/kenney_blocks"
-            android:textColor="@color/black"
-            android:textSize="30sp"
-            android:textStyle="bold"
-            app:cornerRadius="50dp" />
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            />
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
 
-    </RelativeLayout>
+            >
 
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_IMG_coins00"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="20dp"
+                />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_IMG_coins01"
+                android:layout_width="0dp"
+                android:padding="20dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_IMG_coins02"
+                android:layout_width="0dp"
+                android:padding="20dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_IMG_coins03"
+                android:layout_width="0dp"
+                android:padding="20dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_IMG_coins04"
+                android:layout_width="0dp"
+                android:padding="20dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+
+            >
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_IMG_coins10"
+                android:layout_width="0dp"
+                android:padding="20dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_IMG_coins11"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:padding="20dp"
+                android:layout_weight="1" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_IMG_coins12"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="20dp"
+                />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_IMG_coins13"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:padding="20dp"
+                android:layout_weight="1" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_IMG_coins14"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="20dp"
+
+                />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+
+            >
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_IMG_coins20"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="20dp"/>
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_IMG_coins21"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="20dp"
+                />
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_IMG_coins22"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="20dp"
+                />
+
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_IMG_coins23"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="20dp"
+                />
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_IMG_coins24"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="20dp"
+                />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+
+            >
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_IMG_coins30"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="20dp"/>
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_IMG_coins31"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="20dp"
+
+                />
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_IMG_coins32"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="20dp"/>
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_IMG_coins33"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="20dp"
+
+                />
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_IMG_coins34"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="20dp"/>
+
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+
+            >
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_IMG_coins40"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="20dp"/>
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_IMG_coins41"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="20dp"
+
+                />
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_IMG_coins42"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="20dp"/>
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_IMG_coins43"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="20dp"
+
+                />
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_IMG_coins44"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="20dp"/>
+
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
 
 
 </RelativeLayout>

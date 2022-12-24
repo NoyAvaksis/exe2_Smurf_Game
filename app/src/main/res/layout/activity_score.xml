@@ -15,7 +15,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="GAME OVER"
-        android:fontFamily="@font/kenney_blocks"
+        android:fontFamily="@font/iron_wall"
         android:textSize="36dp"
         android:textColor="@color/black"
         />
@@ -24,12 +24,34 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="YOUR POINTS: "
-        android:fontFamily="@font/kenney_blocks"
+        android:fontFamily="@font/iron_wall"
         android:textSize="24dp"
         android:layout_marginTop="40dp"
         android:textColor="@color/black"
 
 
+        />
+
+
+    <EditText
+        android:id="@+id/score_ETXT_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Type Your Name"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/iron_wall"
+
+        />
+
+    <Button
+        android:id="@+id/score_BTN_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="save your score"
+        android:textColor="@color/black"
+        android:fontFamily="@font/iron_wall"
+        android:backgroundTint="#A7DA6E"
         />
 
 
@@ -39,9 +61,9 @@
         android:layout_height="wrap_content"
         android:text="Start Over"
         android:textSize="32dp"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:backgroundTint="#73AC34"
-        android:fontFamily="@font/kenney_blocks"
+        android:fontFamily="@font/iron_wall"
         android:layout_marginTop="40dp"
 
         />
