@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/img_menu"
+    tools:context=".Activity_Menu">
+
+
+        <TextView
+            android:id="@+id/menu_TXT_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SAVE THE"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="150dp"
+            android:fontFamily="@font/baliw"
+            android:textSize="40sp"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:id="@+id/menu_TXT_title2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SMURF"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/menu_TXT_title"
+            android:fontFamily="@font/baliw"
+            android:textSize="40sp"
+            android:textColor="@color/black"
+
+            />
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/menu_LNR_arrows"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/menu_TXT_title2"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/menu_BTN_slowMode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:backgroundTint="#8BC34A"
+            android:fontFamily="@font/iron_wall"
+            android:text="SLOW MODE"
+
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/menu_BTN_fastMode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:backgroundTint="#8BC34A"
+            android:fontFamily="@font/iron_wall"
+            android:text="FAST MODE"
+
+            />
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/menu_LNR_sensor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:layout_below="@id/menu_LNR_arrows"
+
+        android:orientation="horizontal">
+
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/menu_BTN_sensorMode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:backgroundTint="#8AC24A"
+            android:fontFamily="@font/iron_wall"
+            android:text="SENSOR MODE" />
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/menu_BTN_topTen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="60dp"
+        android:text="TOP 10"
+        android:fontFamily="@font/iron_wall"
+        android:backgroundTint="#8BC34A"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+/>
+
+</RelativeLayout>

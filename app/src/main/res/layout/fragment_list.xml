@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_Records"
+    android:background="#C3D5AF"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    >
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/list_LNL_row1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_margin="5dp"
+        >
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/list_LBL_position1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text=" 1."
+            android:textColor="#000000"
+            android:textSize="15sp"
+
+            />
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/list_LBL_name1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            />
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/list_LBL_score1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="  "
+            android:textColor="#000000"
+            android:textSize="15sp"
+
+            />
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/list_LNL_row2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_margin="5dp"
+        >
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/list_LBL_position2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text=" 2."
+            android:textColor="#000000"
+            android:textSize="15sp"
+
+            />
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/list_LBL_name2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            />
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/list_LBL_score2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="#000000"
+            android:textSize="15sp"
+
+            />
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/list_LNL_row3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_margin="5dp"
+        >
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/list_LBL_position3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text=" 3."
+            android:textColor="#000000"
+            android:textSize="15sp"
+
+            />
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/list_LBL_name3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            />
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/list_LBL_score3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="#000000"
+            android:textSize="15sp"
+
+            />
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/list_LNL_row4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_margin="5dp"
+        >
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/list_LBL_position4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text=" 4."
+            android:textColor="#000000"
+            android:textSize="15sp"
+
+            />
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/list_LBL_name4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            />
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/list_LBL_score4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="#000000"
+            android:textSize="15sp"
+
+            />
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/list_LNL_row5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_margin="5dp"
+        >
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/list_LBL_position5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text=" 5."
+            android:textColor="#000000"
+            android:textSize="15sp"
+
+            />
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/list_LBL_name5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            />
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/list_LBL_score5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="#000000"
+            android:textSize="15sp"
+
+            />
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/list_LNL_row6"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_margin="5dp"
+        >
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/list_LBL_position6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text=" 6."
+            android:textColor="#000000"
+            android:textSize="15sp"
+
+            />
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/list_LBL_name6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            />
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/list_LBL_score6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="#000000"
+            android:textSize="15sp"
+
+            />
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/list_LNL_row7"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_margin="5dp"
+        >
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/list_LBL_position7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text=" 7."
+            android:textColor="#000000"
+            android:textSize="15sp"
+
+            />
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/list_LBL_name7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            />
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/list_LBL_score7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="#000000"
+            android:textSize="15sp"
+
+            />
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/list_LNL_row8"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_margin="5dp"
+        >
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/list_LBL_position8"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text=" 8."
+            android:textColor="#000000"
+            android:textSize="15sp"
+
+            />
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/list_LBL_name8"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            />
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/list_LBL_score8"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="#000000"
+            android:textSize="15sp"
+
+            />
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/list_LNL_row9"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_margin="5dp"
+        >
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/list_LBL_position9"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text=" 9."
+            android:textColor="#000000"
+            android:textSize="15sp"
+
+            />
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/list_LBL_name9"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            />
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/list_LBL_score9"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="#000000"
+            android:textSize="15sp"
+
+            />
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/list_LNL_row10"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_margin="5dp"
+        >
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/list_LBL_position10"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text=" 10."
+            android:textColor="#000000"
+            android:textSize="15sp"
+
+            />
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/list_LBL_name10"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            />
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/list_LBL_score10"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="#000000"
+            android:textSize="15sp"
+
+            />
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>
